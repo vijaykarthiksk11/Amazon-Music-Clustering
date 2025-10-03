@@ -2,7 +2,7 @@
 
 A comprehensive Jupyter Notebook pipeline for clustering songs using unsupervised learning techniques like **KMeans** and **PCA**. This project analyzes musical features such as danceability, energy, and tempo to group similar songs together into clusters (e.g., party tracks, chill acoustic, instrumental, etc.).
 
-#🧪 Dataset Assumptions
+# 🧪 Dataset Assumptions
 Your dataset (e.g., song_dataset.csv) should contain numerical features commonly found in Spotify-style audio data:
 
 Example feature columns:
@@ -29,7 +29,7 @@ duration_ms
 
 Optional text columns (e.g. track_name, artist_name) will be dropped during preprocessing.
 
-#🧠 Clustering Process
+# 🧠 Clustering Process
 1. Load & Clean Data
 
 Drop text columns like track_name, artist_name, track_id
@@ -82,7 +82,7 @@ Boxplots per feature/cluster
 
 Save final dataset to songs_with_clusters.csv
 
-#🙌 Acknowledgments
+# 🙌 Acknowledgments
 
 Built using:
 
